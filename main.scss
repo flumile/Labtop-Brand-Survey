@@ -1,0 +1,86 @@
+html,body{
+    font-size: 16px;
+}
+body{
+    //background:#e4d5d5;
+    background: linear-gradient(90deg,rgb(209, 167, 202)0%,rgb(160,79,146));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.main{
+    //background: cadetblue;
+    //opacity: 0.9;
+    width: 500px;
+    margin: 8rem auto;
+}
+form{
+    font-size: 1.5rem;
+    padding: 1rem;
+    background: hsla(250, 38%, 32%, 0.3);
+    border-radius: 0.5rem;
+    margin-left: -5rem;
+    margin-right: 5rem;
+}
+.field{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.question{
+    margin-bottom: 0.5rem;
+}
+select{
+    font-size: 1.3rem;
+    background: #e9dcd7;
+    color: #6f3857;
+    border: none;
+    margin-left: 1rem;
+}
+.labtop-row{
+    display: flex;
+    text-align: center;
+}
+.labtop-brand{
+    display: flex;
+    font-size: 1.2rem;
+    margin: 0.5rem 1.2rem;
+    width: 6rem;
+}
+.labtop-brand input{
+    margin-top: -1px;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+//.rd-brand{
+    
+//}
+.reason{
+    border:none;
+    font-size: 1.2rem;
+    background: #f5efe3;
+    color: #232a33;
+}
+.ans{
+    border:none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.3rem 1.5rem;
+    background: rgb(241, 202, 202);
+    color: rgb(4, 10, 27);
+}
+.title{
+    font-size: 2rem;
+    text-align: center;
+    background: rgba(3, 42, 97, 0.8);
+    color: lavender;
+    margin: -1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.field-submit{
+    margin-top: 1.5rem;
+    margin-bottom: -2rem;
+    text-align: center;
+    //justify-content: flex-end;
+}

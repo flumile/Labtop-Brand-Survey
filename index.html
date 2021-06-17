@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <title>Survey</title>
+</head>
+<body>
+    <div class="main">
+        <form class="form">
+            <div class="title">♦ Labtop Brand Survey ♦</div>
+
+            <div class="field" style="display:flex">
+                <div class="question">please select your age
+                    <select name="age">
+                        <option value="under-18">Under 18</option>
+                        <option value="18-25">18-25</option>
+                        <option value="25-35">25-35</option>
+                        <option value="35-50">35-50</option>
+                        <option value="over-50">Over 50</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="question">What kind of phone labtop do you have?</div>
+                <table>
+                    <div class="labtop-row">
+                        <div class="labtop-brand" >
+                            <input class="rd-brand" type="radio" name="labtop" value="acer" >
+                            <div>Acer</div>
+                        </div>
+                        <div class="labtop-brand" >
+                            <input class="rd-brand" type="radio" name="labtop" value="apple" >
+                            <div>Apple</div>
+                        </div>
+                        <div class="labtop-brand" >
+                            <input type="radio" name="labtop" value="asus" >
+                            <div>Asus</div>
+                        </div>
+                    </div>
+                    <div class="labtop-row">
+                        <div class="labtop-brand" >
+                            <input type="radio" name="labtop" value="dell" >
+                            <div>Dell</div>
+                        </div>
+                        <div class="labtop-brand" >
+                            <input type="radio" name="labtop" value="lenovo" >
+                            <div>Lenovo</div>
+                        </div>
+                        <div class="labtop-brand" >
+                            <input type="radio" name="labtop" value="other" >
+                            <div>Other</div>
+                        </div>
+                    </div>
+                </table>
+            </div>
+
+            <div class="field">
+                <div class="question">Why do you choose this brand?</div>
+                <textarea class="reason" type="text" placeholder="please insert your answer" name="reason" cols="40" rows="3"></textarea>
+            </div>
+            <div class="field field-submit">
+                <input class="ans" type="submit" value="♥ submit ♥" onclick="alert('Thankyou for your answer')">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
