@@ -16,12 +16,20 @@ body{
     //opacity: 0.9;
     width: 500px;
     margin: 8rem auto;
+    display:"table";
+    clear: both;
+}
+.col{
+    float: left;
+    width: 50%;
 }
 h1{
-    font-size: 2rem;
-    margin-left: -5rem;
+    font-size: 5rem;
+    margin-left: -10rem;
     width: 50px;
     background: brown;
+    color: rgb(235, 235, 250);
+    text-shadow: 2px 2px rgb(68, 52, 58);
     //color:blueviolet;
 }
 form{
@@ -29,8 +37,8 @@ form{
     padding: 1rem;
     background: hsla(250, 38%, 32%, 0.3);
     border-radius: 0.5rem;
-    margin-left: 15rem;
-    margin-right: -15rem;
+    margin-left: 5rem;
+    margin-right: -20rem;
     color: aliceblue;
 }
 .field{

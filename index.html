@@ -8,69 +8,73 @@
     <title>Survey</title>
 </head>
 <body>
-    <div class="main" style="display:flex">
-        <h1>labtop brand</h1>
-        <form class="form">
-            <div class="title">♦ Labtop Brand Survey ♦</div>
-
-            <div class="field field-person-index" style="display:flex">
-                <div class="question">Name</div>
-                <input type="text" name="name">
-            </div>
-            <div class="field field-person-index">
-                <div class="question">please select your age
-                    <select name="age">
-                        <option value="under-18">Under 18</option>
-                        <option value="18-25">18-25</option>
-                        <option value="25-35">25-35</option>
-                        <option value="35-50">35-50</option>
-                        <option value="over-50">Over 50</option>
-                    </select>
+    <div class="main">
+        <div class="col">
+            <h1>labtop brand survey</h1>
+        </div>
+        <div class="col">
+            <form class="form">
+                <div class="title">♦ Labtop Brand Survey ♦</div>
+                
+                <div class="field field-person-index" style="display:flex">
+                    <div class="question">Name</div>
+                    <input type="text" name="name">
                 </div>
-            </div>
-
-            <div class="field">
-                <div class="question">What kind of phone labtop do you have?</div>
-                <table>
-                    <div class="labtop-row">
-                        <div class="labtop-brand" >
-                            <input class="rd-brand" type="radio" name="labtop" value="acer" >
-                            <div>Acer</div>
-                        </div>
-                        <div class="labtop-brand" >
-                            <input class="rd-brand" type="radio" name="labtop" value="apple" >
-                            <div>Apple</div>
-                        </div>
-                        <div class="labtop-brand" >
-                            <input type="radio" name="labtop" value="asus" >
-                            <div>Asus</div>
-                        </div>
+                <div class="field field-person-index">
+                    <div class="question">please select your age
+                        <select name="age">
+                            <option value="under-18">Under 18</option>
+                            <option value="18-25">18-25</option>
+                            <option value="25-35">25-35</option>
+                            <option value="35-50">35-50</option>
+                            <option value="over-50">Over 50</option>
+                        </select>
                     </div>
-                    <div class="labtop-row">
-                        <div class="labtop-brand" >
-                            <input type="radio" name="labtop" value="dell" >
-                            <div>Dell</div>
+                </div>
+                
+                <div class="field">
+                    <div class="question">What kind of labtop brand do you have?</div>
+                    <table>
+                        <div class="labtop-row">
+                            <div class="labtop-brand" >
+                                <input class="rd-brand" type="radio" name="labtop" value="acer" >
+                                <div>Acer</div>
+                            </div>
+                            <div class="labtop-brand" >
+                                <input class="rd-brand" type="radio" name="labtop" value="apple" >
+                                <div>Apple</div>
+                            </div>
+                            <div class="labtop-brand" >
+                                <input type="radio" name="labtop" value="asus" >
+                                <div>Asus</div>
+                            </div>
                         </div>
-                        <div class="labtop-brand" >
-                            <input type="radio" name="labtop" value="lenovo" >
-                            <div>Lenovo</div>
+                        <div class="labtop-row">
+                            <div class="labtop-brand" >
+                                <input type="radio" name="labtop" value="dell" >
+                                <div>Dell</div>
+                            </div>
+                            <div class="labtop-brand" >
+                                <input type="radio" name="labtop" value="lenovo" >
+                                <div>Lenovo</div>
+                            </div>
+                            <div class="labtop-brand" >
+                                <input type="radio" name="labtop" value="other" >
+                                <div>Other</div>
+                            </div>
                         </div>
-                        <div class="labtop-brand" >
-                            <input type="radio" name="labtop" value="other" >
-                            <div>Other</div>
-                        </div>
-                    </div>
-                </table>
-            </div>
-
-            <div class="field">
-                <div class="question">Why do you choose this brand?</div>
-                <textarea class="reason" type="text" placeholder="please insert your answer" name="reason" cols="40" rows="3"></textarea>
-            </div>
-            <div class="field field-submit">
-                <input class="ans" type="submit" value="♥ submit ♥" onclick="alert('Thankyou for your answer')">
-            </div>
-        </form>
+                    </table>
+                </div>
+                
+                <div class="field">
+                    <div class="question">Why do you choose this brand?</div>
+                    <textarea class="reason" type="text" placeholder="please insert your answer" name="reason" cols="40" rows="3"></textarea>
+                </div>
+                <div class="field field-submit">
+                    <input class="ans" type="submit" value="♥ submit ♥" onclick="alert('Thankyou for your answer')">
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
