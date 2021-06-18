@@ -1,11 +1,15 @@
 html,body{
     font-size: 16px;
+    //background: linear-gradient(90deg,rgb(209, 167, 202)0%,rgb(160,79,146));
 }
 body{
     //background:#e4d5d5;
-    background: linear-gradient(90deg,rgb(209, 167, 202)0%,rgb(160,79,146));
-    background-repeat: no-repeat;
-    height: 100vh;
+    background-image: url("./TGR_5659.jpg");
+    background-repeat:repeat, no-repeat;
+    background-position: center -1rem;
+    background-attachment: fixed;
+    width: 100%;
+
 }
 .main{
     //background: cadetblue;
@@ -13,17 +17,38 @@ body{
     width: 500px;
     margin: 8rem auto;
 }
+h1{
+    font-size: 2rem;
+    margin-left: -5rem;
+    width: 50px;
+    background: brown;
+    //color:blueviolet;
+}
 form{
     font-size: 1.5rem;
     padding: 1rem;
     background: hsla(250, 38%, 32%, 0.3);
     border-radius: 0.5rem;
-    margin-left: -5rem;
-    margin-right: 5rem;
+    margin-left: 15rem;
+    margin-right: -15rem;
+    color: aliceblue;
 }
 .field{
     margin-left: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+//.field-person-index{
+    //display:"flex";
+//}
+.field-person-index input{
+    //margin-top: -8px;
+    margin-bottom: 4px;
+    font-size: 1.5rem;
+    margin-left:2rem;
+    border: none;
+    width:250px;
+    color: #470e2e;
+    background: #f5efe3;
 }
 .question{
     margin-bottom: 0.5rem;
@@ -57,7 +82,7 @@ select{
     border:none;
     font-size: 1.2rem;
     background: #f5efe3;
-    color: #232a33;
+    color: #2b394b;
 }
 .ans{
     border:none;
